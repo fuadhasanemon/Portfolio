@@ -81,8 +81,13 @@ i {
 }
 
 .info {
-    position: absolute;
-    right: 125px;
-    top: 380px;
+	
+	position: absolute;
+    right: 97px;
+    top: 368px;
+}
+
+main .position {
+	font-family: 'Train One', cursive !important;
 }
 
