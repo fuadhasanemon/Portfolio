@@ -312,6 +312,16 @@
             font-weight: 700;
             margin: 0 0 10px;
           }
+
+          span {
+            a {
+              color: #000000;
+
+              &:hover {
+                color: #006a4e;
+              }
+            }
+          }
         }
         &.wraptwocolumn{
           justify-content: space-between;
