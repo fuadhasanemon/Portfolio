@@ -7,7 +7,15 @@
 
 
 
+span {
+  a {
+    color: #000000;
 
+    &:hover {
+      color: #006a4e;
+    }
+  }
+}
 
 //introduction section star
 .introduction {
