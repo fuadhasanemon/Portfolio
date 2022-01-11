@@ -585,13 +585,14 @@ table {
   font-size: 16px;
   padding: 10px 52px;
   background: transparent;
-  border: 1px solid;
+  // border: 1px solid;
   position: relative;
   transition: all .3s ease;
   text-transform: capitalize;
   font-weight: 500;
   overflow: hidden;
   display: inline-block;
+  cursor: pointer;
 
   span {
     z-index: 2;
@@ -612,7 +613,7 @@ table {
   }
 
   &:hover {
-    border-color: $hover !important;
+    // border-color: $hover !important;
 
     span {
       color: #FFF !important;
